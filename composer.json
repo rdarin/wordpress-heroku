@@ -42,7 +42,8 @@
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/amazon-web-services": "1.0.5",
-	"wpackagist-theme/sosimple": "1.2.7"
+	"wpackagist-theme/sosimple": "1.2.7",
+	"wpackagist-plugin/google-analytics-dashboard-for-wp": "5.3.1.1"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -63,7 +64,8 @@
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
-		"wpackagist-plugin/amazon-web-services"
+		"wpackagist-plugin/amazon-web-services",
+		"wpackagist-plugin/google-analytics-dashboard-for-wp"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
