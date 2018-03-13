@@ -40,7 +40,9 @@
 	"wpackagist-plugin/redis-cache": "1.3.5",
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
-	"wpackagist-plugin/debug-bar": "0.9"
+	"wpackagist-plugin/debug-bar": "0.9",
+	"wpackagist-plugin/amazon-web-services": "1.0.5",
+	"wpackagist-plugin/amazon-s3-and-cloudfront": "1.3.2"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -60,7 +62,9 @@
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/amazon-web-services",
+		"wpackagist-plugin/amazon-s3-and-cloudfront"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
