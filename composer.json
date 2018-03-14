@@ -43,7 +43,8 @@
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/amazon-web-services": "1.0.5",
 	"wpackagist-theme/sosimple": "1.2.7",
-	"wpackagist-plugin/google-analytics-dashboard-for-wp": "5.3.1.1"
+	"wpackagist-plugin/google-analytics-dashboard-for-wp": "5.3.1.1",
+	"wpackagist-plugin/wp-imgur": "0.7.1"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -63,6 +64,7 @@
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
+		"wpackagist-plugin/wp-imgur",
 		"wpackagist-plugin/debug-bar",
 		"wpackagist-plugin/amazon-web-services",
 		"wpackagist-plugin/google-analytics-dashboard-for-wp"
