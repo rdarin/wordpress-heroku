@@ -47,7 +47,8 @@
 	"wpackagist-plugin/amazon-s3-and-cloudfront": "1.3.2",
 	"wpackagist-plugin/jetpack": "5.9",
 	"wpackagist-plugin/photo-gallery": "1.3.69",
-	"wpackagist-plugin/foogallery": "1.4.15"
+	"wpackagist-plugin/foogallery": "1.4.15",
+	"wpackagist-plugin/responsive-lightbox": "1.7.2"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -73,7 +74,8 @@
 		"wpackagist-plugin/amazon-s3-and-cloudfront",
 		"wpackagist-plugin/jetpack",
 		"wpackagist-plugin/photo-gallery",
-		"wpackagist-plugin/foogallery"
+		"wpackagist-plugin/foogallery",
+		"wpackagist-plugin/responsive-lightbox"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
